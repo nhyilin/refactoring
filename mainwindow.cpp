@@ -45,7 +45,6 @@ void MainWindow::on_pushButton_clicked() {
     timer->start(num);
 }
 
-
 bool MainWindow::eventFilter(QObject *target, QEvent *event) {
     if (target == ui->textEdit) {
         if (event->type() == QEvent::KeyPress) {//回车键

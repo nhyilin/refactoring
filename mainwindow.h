@@ -34,8 +34,5 @@ private:
 protected:
     bool eventFilter(QObject *target, QEvent *event)override;//事件过滤器
     
-    //int getSerialnumber(int total);
-    
-    
 };
 

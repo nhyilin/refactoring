@@ -39,12 +39,10 @@ void DataManager::deleteInstance()
 
 DataManager::DataManager()
 {
-    std::cout << "构造函数" << std::endl;
 }
 
 DataManager::~DataManager()
 {
-    std::cout << "析构函数" << std::endl;
 }
 
 void DataManager::generate(int num){
