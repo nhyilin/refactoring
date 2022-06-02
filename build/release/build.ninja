@@ -73,6 +73,14 @@ build CMakeFiles/timer.dir/mainwindow.cpp.o: CXX_COMPILER__timer_Release /Users/
   OBJECT_DIR = CMakeFiles/timer.dir
   OBJECT_FILE_DIR = CMakeFiles/timer.dir
 
+build CMakeFiles/timer.dir/DataManager.cpp.o: CXX_COMPILER__timer_Release /Users/peiyilin/dev/CLion/timer/DataManager.cpp || cmake_object_order_depends_target_timer
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/timer.dir/DataManager.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC -std=gnu++2a
+  INCLUDES = -I/Users/peiyilin/dev/CLion/timer/build/release/timer_autogen/include -isystem /Users/peiyilin/opt/anaconda3/include/qt -isystem /Users/peiyilin/opt/anaconda3/include/qt/QtCore -isystem /Users/peiyilin/opt/anaconda3/./mkspecs/macx-clang -isystem /Users/peiyilin/opt/anaconda3/include/qt/QtWidgets -isystem /Users/peiyilin/opt/anaconda3/include/qt/QtGui -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/peiyilin/opt/anaconda3/include/qt/QtQml -isystem /Users/peiyilin/opt/anaconda3/include/qt/QtNetwork -isystem /Users/peiyilin/opt/anaconda3/include/qt/QtQuick
+  OBJECT_DIR = CMakeFiles/timer.dir
+  OBJECT_FILE_DIR = CMakeFiles/timer.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target timer
@@ -81,7 +89,7 @@ build CMakeFiles/timer.dir/mainwindow.cpp.o: CXX_COMPILER__timer_Release /Users/
 #############################################
 # Link the executable timer
 
-build timer: CXX_EXECUTABLE_LINKER__timer_Release CMakeFiles/timer.dir/timer_autogen/mocs_compilation.cpp.o CMakeFiles/timer.dir/main.cpp.o CMakeFiles/timer.dir/mainwindow.cpp.o | /Users/peiyilin/opt/anaconda3/lib/libQt5Widgets.5.9.7.dylib /Users/peiyilin/opt/anaconda3/lib/libQt5Quick.5.9.7.dylib /Users/peiyilin/opt/anaconda3/lib/libQt5Gui.5.9.7.dylib /Users/peiyilin/opt/anaconda3/lib/libQt5Qml.5.9.7.dylib /Users/peiyilin/opt/anaconda3/lib/libQt5Network.5.9.7.dylib /Users/peiyilin/opt/anaconda3/lib/libQt5Core.5.9.7.dylib || timer_autogen
+build timer: CXX_EXECUTABLE_LINKER__timer_Release CMakeFiles/timer.dir/timer_autogen/mocs_compilation.cpp.o CMakeFiles/timer.dir/main.cpp.o CMakeFiles/timer.dir/mainwindow.cpp.o CMakeFiles/timer.dir/DataManager.cpp.o | /Users/peiyilin/opt/anaconda3/lib/libQt5Widgets.5.9.7.dylib /Users/peiyilin/opt/anaconda3/lib/libQt5Quick.5.9.7.dylib /Users/peiyilin/opt/anaconda3/lib/libQt5Gui.5.9.7.dylib /Users/peiyilin/opt/anaconda3/lib/libQt5Qml.5.9.7.dylib /Users/peiyilin/opt/anaconda3/lib/libQt5Network.5.9.7.dylib /Users/peiyilin/opt/anaconda3/lib/libQt5Core.5.9.7.dylib || timer_autogen
   FLAGS = -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = -Wl,-rpath,/Users/peiyilin/opt/anaconda3/lib  /Users/peiyilin/opt/anaconda3/lib/libQt5Widgets.5.9.7.dylib  /Users/peiyilin/opt/anaconda3/lib/libQt5Quick.5.9.7.dylib  /Users/peiyilin/opt/anaconda3/lib/libQt5Gui.5.9.7.dylib  /Users/peiyilin/opt/anaconda3/lib/libQt5Qml.5.9.7.dylib  /Users/peiyilin/opt/anaconda3/lib/libQt5Network.5.9.7.dylib  /Users/peiyilin/opt/anaconda3/lib/libQt5Core.5.9.7.dylib
   OBJECT_DIR = CMakeFiles/timer.dir

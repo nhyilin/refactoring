@@ -23,14 +23,19 @@ public:
 private slots:
     
     void on_pushButton_clicked();
-    
+    void on_pushButton_2_clicked();
     void myslot();
 
 private:
     Ui::MainWindow *ui;
     QTimer *timer;
+    int getRandomNum(int total);
 
 protected:
     bool eventFilter(QObject *target, QEvent *event)override;//事件过滤器
+    
+    //int getSerialnumber(int total);
+    
+    
 };
 

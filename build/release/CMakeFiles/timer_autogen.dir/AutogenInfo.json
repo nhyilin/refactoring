@@ -94,6 +94,18 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/peiyilin/dev/CLion/timer/DataManager.h",
+			"MU",
+			"EWIEGA46WW/moc_DataManager.cpp",
+			null
+		],
+		[
+			"/Users/peiyilin/dev/CLion/timer/Student.h",
+			"MU",
+			"EWIEGA46WW/moc_Student.cpp",
+			null
+		],
+		[
 			"/Users/peiyilin/dev/CLion/timer/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -160,6 +172,7 @@
 	"SETTINGS_FILE" : "/Users/peiyilin/dev/CLion/timer/build/release/CMakeFiles/timer_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/Users/peiyilin/dev/CLion/timer/DataManager.cpp", "MU", null ],
 		[ "/Users/peiyilin/dev/CLion/timer/main.cpp", "MU", null ],
 		[ "/Users/peiyilin/dev/CLion/timer/mainwindow.cpp", "MU", null ]
 	],
