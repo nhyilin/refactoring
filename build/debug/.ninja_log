@@ -63,3 +63,17 @@
 5	21	0	/Users/peiyilin/dev/CLion/timer/build/debug/timer_autogen/include/ui_mainwindow.h	a351e7b9c4197ed5
 22	2263	1654571238678158987	CMakeFiles/timer.dir/mainwindow.cpp.o	496acb655c7ab0fa
 2263	2322	1654571238745874948	timer	a461bb674a49ba62
+5	89	0	CMakeFiles/timer_autogen	a351e7b9c4197ed5
+5	89	0	timer_autogen/mocs_compilation.cpp	a351e7b9c4197ed5
+5	89	0	timer_autogen/include/ui_mainwindow.h	a351e7b9c4197ed5
+5	89	0	/Users/peiyilin/dev/CLion/timer/build/debug/CMakeFiles/timer_autogen	a351e7b9c4197ed5
+5	89	0	/Users/peiyilin/dev/CLion/timer/build/debug/timer_autogen/mocs_compilation.cpp	a351e7b9c4197ed5
+5	89	0	/Users/peiyilin/dev/CLion/timer/build/debug/timer_autogen/include/ui_mainwindow.h	a351e7b9c4197ed5
+89	2253	1654571494534623479	CMakeFiles/timer.dir/mainwindow.cpp.o	496acb655c7ab0fa
+2253	2328	1654571494621231678	timer	a461bb674a49ba62
+4	45	0	CMakeFiles/timer_autogen	a351e7b9c4197ed5
+4	45	0	timer_autogen/mocs_compilation.cpp	a351e7b9c4197ed5
+4	45	0	timer_autogen/include/ui_mainwindow.h	a351e7b9c4197ed5
+4	45	0	/Users/peiyilin/dev/CLion/timer/build/debug/CMakeFiles/timer_autogen	a351e7b9c4197ed5
+4	45	0	/Users/peiyilin/dev/CLion/timer/build/debug/timer_autogen/mocs_compilation.cpp	a351e7b9c4197ed5
+4	45	0	/Users/peiyilin/dev/CLion/timer/build/debug/timer_autogen/include/ui_mainwindow.h	a351e7b9c4197ed5
