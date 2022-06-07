@@ -1,11 +1,12 @@
 # ninja log v5
-4	295	0	timer_autogen/mocs_compilation.cpp	daa0c42fc4561db6
-4	295	0	/Users/peiyilin/dev/CLion/timer/build/release/timer_autogen/include/ui_mainwindow.h	daa0c42fc4561db6
-4	295	0	/Users/peiyilin/dev/CLion/timer/build/release/timer_autogen/mocs_compilation.cpp	daa0c42fc4561db6
-4	295	0	CMakeFiles/timer_autogen	daa0c42fc4561db6
-4	295	0	timer_autogen/include/ui_mainwindow.h	daa0c42fc4561db6
-4	295	0	/Users/peiyilin/dev/CLion/timer/build/release/CMakeFiles/timer_autogen	daa0c42fc4561db6
-297	1809	1653890643947415132	CMakeFiles/timer.dir/main.cpp.o	72d327468e0bd8c1
-295	1793	1653890643931572228	CMakeFiles/timer.dir/timer_autogen/mocs_compilation.cpp.o	502dc173f0d0dac9
-301	2309	1653890644445613798	CMakeFiles/timer.dir/mainwindow.cpp.o	4d1b6e545642d087
-2309	2380	1653890644523843232	timer	396239f3ba9f2ed5
+7	32	0	timer_autogen/mocs_compilation.cpp	daa0c42fc4561db6
+7	32	0	/Users/peiyilin/dev/CLion/timer/build/release/timer_autogen/include/ui_mainwindow.h	daa0c42fc4561db6
+7	32	0	/Users/peiyilin/dev/CLion/timer/build/release/timer_autogen/mocs_compilation.cpp	daa0c42fc4561db6
+7	32	0	CMakeFiles/timer_autogen	daa0c42fc4561db6
+7	32	0	timer_autogen/include/ui_mainwindow.h	daa0c42fc4561db6
+7	32	0	/Users/peiyilin/dev/CLion/timer/build/release/CMakeFiles/timer_autogen	daa0c42fc4561db6
+555	2623	1654175945464949182	CMakeFiles/timer.dir/main.cpp.o	72d327468e0bd8c1
+555	2612	1654175945452766679	CMakeFiles/timer.dir/timer_autogen/mocs_compilation.cpp.o	502dc173f0d0dac9
+33	2611	1654176166940664538	CMakeFiles/timer.dir/mainwindow.cpp.o	4d1b6e545642d087
+2611	2698	1654176167036769938	timer	2e055c7d061ca1e5
+556	2187	1654175945021923207	CMakeFiles/timer.dir/DataManager.cpp.o	3baad35677e76e0d

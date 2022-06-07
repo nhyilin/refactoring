@@ -25,7 +25,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->pushButton->setDefault(true);
     ui->textEdit->installEventFilter(this);//设置完后自动调用其eventFilter函数
     
-    
 }
 
 MainWindow::~MainWindow() {
@@ -75,11 +74,11 @@ void MainWindow::on_pushButton_2_clicked() {
     ui->textEdit_2->clear();
     for (int i = 0; i < selectedPerson.size(); ++i) {
         ui->textEdit_2->append(QString::number(selectedPerson.at(i).id));
+        QString str;
     }
     
 }
 
 int MainWindow::getRandomNum(int total) {
-    srand((unsigned) time(nullptr));
     return (rand() % total);
 }

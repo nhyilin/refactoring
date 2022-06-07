@@ -6,6 +6,7 @@
 
 #include <QWidget>
 #include <QKeyEvent>
+#include "Student.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -34,5 +35,6 @@ private:
 protected:
     bool eventFilter(QObject *target, QEvent *event)override;//事件过滤器
     
+    int checkIfConflict(std::vector<Student>&person);
 };
 
