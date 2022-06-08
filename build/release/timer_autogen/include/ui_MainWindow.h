@@ -48,11 +48,11 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(886, 578);
+        MainWindow->resize(821, 400);
         label_2 = new QLabel(MainWindow);
         label_2->setObjectName(QStringLiteral("label_2"));
         label_2->setEnabled(false);
-        label_2->setGeometry(QRect(260, 20, 131, 31));
+        label_2->setGeometry(QRect(340, 30, 131, 31));
         label_2->setStyleSheet(QLatin1String("QLabel {\n"
 "    font-family: \"Microsoft YaHei\";\n"
 "    font-size: 14px;\n"
@@ -72,7 +72,7 @@ public:
         textEdit = new QTextEdit(layoutWidget);
         textEdit->setObjectName(QStringLiteral("textEdit"));
         textEdit->setEnabled(true);
-        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Minimum);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(textEdit->sizePolicy().hasHeightForWidth());
@@ -107,7 +107,7 @@ public:
         textEdit_5 = new QTextEdit(layoutWidget);
         textEdit_5->setObjectName(QStringLiteral("textEdit_5"));
         textEdit_5->setEnabled(true);
-        QSizePolicy sizePolicy1(QSizePolicy::Expanding, QSizePolicy::Minimum);
+        QSizePolicy sizePolicy1(QSizePolicy::Expanding, QSizePolicy::Fixed);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
         sizePolicy1.setHeightForWidth(textEdit_5->sizePolicy().hasHeightForWidth());
