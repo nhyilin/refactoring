@@ -1,4 +1,0 @@
-/Users/peiyilin/dev/CLion/timer/build/release/CMakeFiles/timer.dir
-/Users/peiyilin/dev/CLion/timer/build/release/CMakeFiles/edit_cache.dir
-/Users/peiyilin/dev/CLion/timer/build/release/CMakeFiles/rebuild_cache.dir
-/Users/peiyilin/dev/CLion/timer/build/release/CMakeFiles/timer_autogen.dir
