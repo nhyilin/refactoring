@@ -1,4 +1,4 @@
-#include git add . <QCoreApplication>
+#include <QCoreApplication>
 #include <QDebug>
 #include <QApplication>
 #include "./mainwindow.h"
