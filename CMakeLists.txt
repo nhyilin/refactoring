@@ -14,6 +14,7 @@ find_package(Qt5 COMPONENTS
         Quick
         REQUIRED)
 
-add_executable(${PROJECT_NAME} main.cpp mainwindow.cpp mainwindow.h mainwindow.ui DataManager.cpp DataManager.h Student.h)
+add_executable(${PROJECT_NAME}
+        main.cpp mainwindow.cpp mainwindow.h mainwindow.ui DataManager.cpp DataManager.h Student.h)
 target_link_libraries(${PROJECT_NAME} Qt5::Core Qt5::Widgets Qt5::Gui Qt5::Qml Qt5::Quick)
 

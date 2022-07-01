@@ -2,9 +2,11 @@
 // Created by 裴奕霖 on 2022/6/2.
 //
 #pragma once
+
 #include <iostream>
 #include <vector>
 #include "Student.h"
+
 class DataManager {
 public:
     // 获取单实例对象
@@ -14,7 +16,8 @@ public:
     static void deleteInstance();
     
     void generate(int num);
-    void getPersons(std::vector<Student>&person);
+    
+    void getPersons(std::vector<Student> &person);
 
 private:
     // 将其构造和析构成为私有的, 禁止外部构造和析构
@@ -33,5 +36,6 @@ private:
     static std::mutex m_Mutex;
     std::vector<Student> person;
 };
+
 
 

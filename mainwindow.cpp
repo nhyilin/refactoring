@@ -2,7 +2,6 @@
 // Created by 裴奕霖 on 2022/5/27.
 //
 
-// You may need to build the project (run Qt uic code generator) to get "ui_MainWindow.h" resolved
 
 #include <QMessageBox>
 #include "mainwindow.h"
@@ -14,12 +13,13 @@
 
 MainWindow::MainWindow(QWidget *parent) :
         QWidget(parent), ui(new Ui::MainWindow) {
+    srand((unsigned) time(nullptr));
     ui->setupUi(this);
     timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()), this, SLOT(myslot()));
-    setVisible(ui->gridLayout);
-    ui->label_2->setFrameStyle(QFrame::Box | QFrame::Raised);
-    ui->label_2->setAlignment(Qt::AlignCenter);
+//    setVisible(ui->gridLayout);
+//    ui->label_2->setFrameStyle(QFrame::Box | QFrame::Raised);
+//    ui->label_2->setAlignment(Qt::AlignCenter);
     
     ui->pushButton->setFocus();
     ui->pushButton->setDefault(true);
