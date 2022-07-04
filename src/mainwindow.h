@@ -30,11 +30,10 @@ private slots:
 private:
     Ui::MainWindow *ui;
     QTimer *timer;
-    int getRandomNum(int total);
+    static int getRandomNum(int total);
 
 protected:
     bool eventFilter(QObject *target, QEvent *event)override;//事件过滤器
     
-    int checkIfConflict(std::vector<Student>&person);
 };
 

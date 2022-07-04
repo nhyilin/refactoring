@@ -33,12 +33,10 @@ void DataManager::deleteInstance()
 }
 
 DataManager::DataManager()
-{
-}
+= default;
 
 DataManager::~DataManager()
-{
-}
+= default;
 
 void DataManager::generate(int num){
     person.clear();
@@ -50,4 +48,8 @@ void DataManager::generate(int num){
 }
 void DataManager::getPersons(std::vector<Student>&person){
     person= this->person;
+}
+
+void DataManager::checkoutConfiect(){
+    person.
 }

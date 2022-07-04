@@ -25,6 +25,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->pushButton->setDefault(true);
     ui->textEdit->installEventFilter(this);//设置完后自动调用其eventFilter函数
     
+    ui->textEdit_4->setPlainText("45");
+    
 }
 
 MainWindow::~MainWindow() {
@@ -47,7 +49,7 @@ void MainWindow::on_pushButton_clicked() {
 bool MainWindow::eventFilter(QObject *target, QEvent *event) {
     if (target == ui->textEdit) {
         if (event->type() == QEvent::KeyPress) {//回车键
-            QKeyEvent *k = static_cast<QKeyEvent *>(event);
+            QKeyEvent *k = dynamic_cast<QKeyEvent *>(event);
             
             if (k->key() == Qt::Key_Return) {
                 on_pushButton_clicked();        //需要响应的函数事件，以这里的按钮为例
@@ -71,10 +73,11 @@ void MainWindow::on_pushButton_2_clicked() {
         selectedPerson.push_back(person.at(showed));
     }
     
+    
+    
     ui->textEdit_2->clear();
-    for (int i = 0; i < selectedPerson.size(); ++i) {
-        ui->textEdit_2->append(QString::number(selectedPerson.at(i).id));
-        QString str;
+    for (auto & i : selectedPerson) {
+        ui->textEdit_2->append(QString::number(i.id));
     }
     
 }
