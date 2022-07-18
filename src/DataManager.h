@@ -29,7 +29,7 @@ private:
     DataManager(const DataManager &signal);
     
     const DataManager &operator=(const DataManager &signal);
-    void checkoutConfiect();
+//    void checkoutConfiect();
 
 private:
     // 唯一单实例对象指针

@@ -46,10 +46,3 @@ void DataManager::generate(int num){
     person.push_back(s);
     }
 }
-void DataManager::getPersons(std::vector<Student>&person){
-    person= this->person;
-}
-
-void DataManager::checkoutConfiect(){
-    person.
-}

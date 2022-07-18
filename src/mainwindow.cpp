@@ -85,3 +85,7 @@ void MainWindow::on_pushButton_2_clicked() {
 int MainWindow::getRandomNum(int total) {
     return (rand() % total);
 }
+
+void MainWindow::checkConflict(std::vector<Student>& selecetdPerson){
+//    DataManager::GetInstance()->getPersons(std::vector<Student>& selectedPerson);
+}
