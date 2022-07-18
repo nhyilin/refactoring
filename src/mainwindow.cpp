@@ -65,7 +65,7 @@ void MainWindow::on_pushButton_2_clicked() {
     int selected = ui->textEdit_5->toPlainText().toInt();
     DataManager::GetInstance()->generate(total);
     std::vector<Student> person;
-//    DataManager::GetInstance()->getPersons(person);
+    DataManager::GetInstance()->getPersons(person);
     
     std::vector<Student> selectedPerson;
     for (int i = 0; i < selected; ++i) {
