@@ -1,2 +1,4 @@
-# timer
-qt小工具
+# refactoring
+
+技术点清单：
+
