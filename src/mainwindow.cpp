@@ -17,9 +17,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
     timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()), this, SLOT(myslot()));
-//    setVisible(ui->gridLayout);
-//    ui->label_2->setFrameStyle(QFrame::Box | QFrame::Raised);
-//    ui->label_2->setAlignment(Qt::AlignCenter);
     
     ui->pushButton->setFocus();
     ui->pushButton->setDefault(true);
